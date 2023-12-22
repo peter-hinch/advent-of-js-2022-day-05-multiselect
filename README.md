@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# Advent of JS 2022 - Day 4 - Computer Keyboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my submission for day 4 of the [Advent of JS](https://www.adventofjs.com/) challenge.
 
-## Available Scripts
+For my submissions to Advent of JS, I have taken the approach of first completing the corresponding challenge in the [Advent of CSS](https://www.adventofcss.com/) and then building the functionality for the JS challenge on top. For this challenge I have chosen to work with React.js and typescript.
 
-In the project directory, you can run:
+The requirements for functionality can be viewed in the [README.md](./STARTER-FILES/README.md) included with the starter files.
 
-### `npm start`
+Please feel free to check out my other Advent of JS repos:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Day 1 - Pomodoro Timer](https://github.com/peter-hinch/advent-of-js-2022-day-01-pomodoro-timer)
+- [Day 2 - E-Commerce Component](https://github.com/peter-hinch/advent-of-js-2022-day-02-ecommerce-component)
+- [Day 3 - Piano](https://github.com/peter-hinch/advent-of-js-2022-day-03-piano)
+- [Day 4 - Computer Keyboard](https://github.com/peter-hinch/advent-of-js-2022-day-04-computer-keyboard)
+- Day 5 - Multi-select
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I have also participated in Advent of CSS. You can check out these repos, here:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Day 1 - Pomodoro Timer](https://github.com/peter-hinch/advent-of-css-2022-01-pomodoro-timer)
+- [Day 2 - E-Commerce Component](https://github.com/peter-hinch/advent-of-css-2022-02-ecommerce-component)
+- [Day 3 - Piano](https://github.com/peter-hinch/advent-of-css-2022-day-03-piano)
+- [Day 4 - Computer Keyboard](https://github.com/peter-hinch/advent-of-css-2022-day-04-computer-keyboard)
+- [Day 5 - Multi-select](https://github.com/peter-hinch/advent-of-css-2022-day-05-multiselect)
+- [Day 6 - Range Slider](https://github.com/peter-hinch/advent-of-css-2022-day-06-range-slider)
+- [Day 7 - Tip Calculator](https://github.com/peter-hinch/advent-of-css-2022-day-07-tip-calculator)
+- [Day 8 - Weather API](https://github.com/peter-hinch/advent-of-css-2022-day-08-weather-api)
+- [Day 9 - Image Carousel](https://github.com/peter-hinch/advent-of-css-2022-day-09-image-carousel)
+- [Day 10 - Verification Code](https://github.com/peter-hinch/advent-of-css-2022-day-10-verification-code)
+- [Day 11 - Expander / Collapser](https://github.com/peter-hinch/advent-of-css-2022-day-11-expander-collapser)
