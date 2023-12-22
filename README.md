@@ -1,4 +1,4 @@
-# Advent of JS 2022 - Day 4 - Computer Keyboard
+# Advent of JS 2022 - Day 5 - Multi-Select
 
 This is my submission for day 4 of the [Advent of JS](https://www.adventofjs.com/) challenge.
 
