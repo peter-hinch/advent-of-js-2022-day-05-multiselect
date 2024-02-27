@@ -27,3 +27,6 @@ I have also participated in Advent of CSS. You can check out these repos, here:
 - [Day 9 - Image Carousel](https://github.com/peter-hinch/advent-of-css-2022-day-09-image-carousel)
 - [Day 10 - Verification Code](https://github.com/peter-hinch/advent-of-css-2022-day-10-verification-code)
 - [Day 11 - Expander / Collapser](https://github.com/peter-hinch/advent-of-css-2022-day-11-expander-collapser)
+- [Day 12 - Rock, Paper, Scissors](https://github.com/peter-hinch/advent-of-css-2022-day-12-rock-paper-scissors)
+- [Day 13 - Custom Modal](https://github.com/peter-hinch/advent-of-css-2022-day-13-custom-modal)
+- [Day 14 - Calendar Picker](https://github.com/peter-hinch/advent-of-css-day-14-calendar-picker)
