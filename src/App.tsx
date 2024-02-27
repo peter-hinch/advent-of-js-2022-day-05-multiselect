@@ -36,7 +36,7 @@ const seedSelections = () => {
 
 const App: React.FC<{}> = ({}) => {
   const [selections, setSelections] = useState<Selection[]>(seedSelections());
-  const [lastIdClicked, setLastIdClicked] = useState<number>(0);
+  const [lastSelection, setLastSelection] = useState<Selection | undefined>();
   const [isShiftDown, setIsShiftDown] = useState<boolean>(false);
 
   // Add an event listener to handle key presses anywhere on the page
@@ -67,14 +67,23 @@ const App: React.FC<{}> = ({}) => {
 
   const handleChecked = (id: number, value: boolean) => {
     const newSelections = [...selections];
+    const newIndex = selections.findIndex((sel) => sel.id === id);
+    const newSelection = { id, selected: value };
     if (isShiftDown) {
+      // Fill selections between last selection and new selection using the
+      // 'selected' value from the new selection
+      const lastIndex = selections.findIndex(
+        (sel) => sel.id === lastSelection?.id
+      );
+      const range = [lastIndex, newIndex].sort((a, b) => a - b);
+      console.log(range);
+      for (let i = range[0]; i++; i < range[1]) {}
     } else {
-      const newSelection = { id, selected: value };
-      const newIndex = selections.findIndex((sel) => sel.id === id);
+      // Replace an existing value with 1x new value
       newSelections.splice(newIndex, 1, newSelection);
     }
     setSelections(newSelections);
-    setLastIdClicked(id);
+    setLastSelection(newSelection);
   };
 
   return (
